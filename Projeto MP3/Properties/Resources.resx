@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Another_One_Bites_the_Dust" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Rock\Queen\Another One Bites the Dust.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Rosa_de_Hiroshima" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Nacional\Mpb\Secos &amp; Molhados\Rosa de Hiroshima.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Design sem nome1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Design sem nome1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Secos___Molhados_2___Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Secos &amp; Molhados 2 - Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Design sem nome (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Design sem nome (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="The_Game___Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\The Game - Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rise_And_Fall___Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Rise And Fall - Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ela_Partiu___Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Ela Partiu - Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vale_Tudo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Nacional\Mpb\Tim Maia\Vale Tudo.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Shop_A_Pop_Opera___Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Shop A Pop Opera - Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="O_Pulso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Nacional\Mpb\Titãns\O Pulso.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_505" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Pop\Arctic Monkeys\505.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eye_in_the_Sky" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Rock\The Alan Parsons Projetc\Eye in the Sky.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Fala" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Nacional\Mpb\Secos &amp; Molhados\Fala.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Baby_Hotline_Tea_Errors___Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Baby Hotline-Tea Errors - Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lemon_Tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Rock\Fools Garden\Lemon Tree.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Show De Rock Musica Ao Vivo Ousado Descolado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Show De Rock Musica Ao Vivo Ousado Descolado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Acústico_MTV___Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Acústico MTV - Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bad_Habit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Pop\Steve Lacy\Bad Habit.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Trio____Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Trio -  Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hello__Goodbye" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Rock\The Beatles\Hello, Goodbye.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Demon_Days" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Demon Days.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Da_Da_Da" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Rock\Trio\Da Da Da.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Cupid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Pop\Jack Stauber\Cupid.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Save_The_World_Tomorrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Rock\Fools Garden\Save The World Tomorrow.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="We_Will_Rock_You" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Rock\Queen\We Will Rock You.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="A_Night_At_The_Opera___Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\A Night At The Opera - Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clint_Eastwood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Rock\Gorillaz\Clint Eastwood.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Dark_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Pop\Steve Lacy\Dark Red.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Deus_e_o_Diabo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Nacional\Mpb\Titãns\Deus e o Diabo.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Ela_Partiu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Nacional\Mpb\Tim Maia\Ela Partiu.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Tim_Maia_71___Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Tim Maia 71 - Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Homem_Primata" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Nacional\Mpb\Titãns\Homem Primata.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Running___Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Running - Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Beautiful_Boy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Rock\The Beatles\Beautiful Boy.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Secos___Molhados_1___Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Secos &amp; Molhados 1 - Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peppermint__feat__Lexy_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Pop\Jack Stauber\Peppermint (feat. Lexy).mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Two_Time" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Pop\Jack Stauber\Two Time.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Design sem nome2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Design sem nome2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Made_In_Heaven___Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Made In Heaven - Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="O_Descobridor_Dos_Sete_Mares" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Nacional\Mpb\Tim Maia\O Descobridor Dos Sete Mares.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Coffee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Pop\Jack Stauber\Coffee.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Dance_Bem___Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Dance Bem - Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Assim_Assado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Nacional\Mpb\Secos &amp; Molhados\Assim Assado.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Sheer_Heart_Attack___Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Sheer Heart Attack - Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Micropop___Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Micropop - Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Strange_Days___Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Strange Days - Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CHOCOLATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Nacional\Mpb\Tim Maia\CHOCOLATE.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Doctor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Pop\Jack Stauber\Doctor.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Yellow_Submarine___Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Yellow Submarine - Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dia_dos_Pais___Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Dia dos Pais - Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pop_Food___Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Pop Food - Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="O_Descobridor_dos_7_mares____album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\O Descobridor dos 7 mares  - album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Double_Fantasy___Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Double Fantasy - Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Made_In_Heaven" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Rock\Queen\Made In Heaven.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Tek_It" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Pop\Cafuné\Tek It.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Õ_Blesq_Blom___Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Õ Blesq Blom - Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bichos_escrotos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Nacional\Mpb\Titãns\Bichos escrotos.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_84_94___Volume_1___Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\84 94 - Volume 1 - Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dish_Of_The_Day___Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Dish Of The Day - Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yellow_Submarine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Rock\The Beatles\Yellow Submarine.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eu_Amo_Você" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Nacional\Mpb\Tim Maia\Eu Amo Você.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="People_Are_Strange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Rock\The Doors\People Are Strange.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="The_Soft_Parade___Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\The Soft Parade - Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dançando_a_noite_inteira___album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Dançando a noite inteira - album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Two_Time___Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Two Time - Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sangue_Latino" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Nacional\Mpb\Secos &amp; Molhados\Sangue Latino.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="O_Vira" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Nacional\Mpb\Secos &amp; Molhados\O Vira.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Os_cegos_do_Castelo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Nacional\Mpb\Titãns\Os cegos do Castelo.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Flores_Astrais" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Nacional\Mpb\Secos &amp; Molhados\Flores Astrais.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Design sem nome" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Design sem nome.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oh_klahoma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Pop\Jack Stauber\Oh klahoma.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Magical_Mystery_Tour___Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Magical Mystery Tour - Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Choice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Pop\Jack Stauber\Choice.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Sheer_Heart_Attack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Rock\Queen\Sheer Heart Attack.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Design sem nome4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Design sem nome4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bohemian_Rhapsody" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Rock\Queen\Bohemian Rhapsody.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Killer_Queen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Rock\Queen\Killer Queen.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Feel_Good_Inc_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Rock\Gorillaz\Feel Good Inc..mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Baby_Hotline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Pop\Jack Stauber\Baby Hotline.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Love_Of_My_Life" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Rock\Queen\Love Of My Life.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Steve_Lacy_s_Demo___Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Steve Lacy's Demo - Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Design sem nome3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Design sem nome3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sim.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dinner_Is_Not_Over___Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Dinner Is Not Over - Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="We_Are_The_Champions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Rock\Queen\We Are The Champions.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Marvin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Nacional\Mpb\Titãns\Marvin.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_19_2000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Rock\Gorillaz\19-2000.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Amor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Nacional\Mpb\Secos &amp; Molhados\Amor.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Cabeça_de_Dinossauro___Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Cabeça de Dinossauro - Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="News_of_the_World__Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\News of the World- Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flores" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Nacional\Mpb\Titãns\Flores.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Tea_Errors" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Pop\Jack Stauber\Tea Errors.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Buttercup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Pop\Jack Stauber\Buttercup.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Don_t_Stop_Me_Now" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Rock\Queen\Don't Stop Me Now.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Touch_Me" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Musicas\Internacional\Rock\The Doors\Touch Me.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="A_Day_At_The_Races___Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\A Day At The Races - Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stop.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Voltar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Voltar.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Avancar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Avancar.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mais" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mais.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Menos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Menos.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="play" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\play.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mais1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mais1.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Eye_In_The_Sky_Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Eye-In-The-Sky-Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Favourite_Worst_Nightmare__Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Favourite Worst Nightmare -Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gemini_Rights_Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Gemini Rights Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Jazz_Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Jazz-Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Please_Don_t_Go___Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Please Don_t Go - Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Skiptracing_Album" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Albuns\Skiptracing-Album.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

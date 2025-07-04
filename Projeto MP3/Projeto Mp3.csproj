@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C2F416C7-81ED-4558-9D1F-E0E54DC9BD38}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Projeto_Mp3</RootNamespace>
+    <AssemblyName>Projeto Mp3</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>packages\BouncyCastle.Cryptography.2.4.0\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.27.2.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>packages\Google.Protobuf.3.27.2\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.3.8.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>packages\K4os.Compression.LZ4.1.3.8\lib\net462\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.3.8.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>packages\K4os.Compression.LZ4.Streams.1.3.8\lib\net462\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.8.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <HintPath>packages\K4os.Hash.xxHash.1.0.8\lib\net462\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=9.0.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>packages\MySql.Data.9.0.0\lib\net462\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Configuration.ConfigurationManager.8.0.0\lib\net462\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=8.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Diagnostics.DiagnosticSource.8.0.1\lib\net462\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipelines, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.IO.Pipelines.8.0.0\lib\net462\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZstdSharp, Version=0.8.1.0, Culture=neutral, PublicKeyToken=8d151af33a4ad5cf, processorArchitecture=MSIL">
+      <HintPath>packages\ZstdSharp.Port.0.8.1\lib\net462\ZstdSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Banco.cs" />
+    <Compile Include="Cadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro.Designer.cs">
+      <DependentUpon>Cadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Musicas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Musicas.Designer.cs">
+      <DependentUpon>Musicas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Senha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Senha.Designer.cs">
+      <DependentUpon>Senha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Variaveis.cs" />
+    <EmbeddedResource Include="Cadastro.resx">
+      <DependentUpon>Cadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Musicas.resx">
+      <DependentUpon>Musicas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Senha.resx">
+      <DependentUpon>Senha.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include=".editorconfig" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Show De Rock Musica Ao Vivo Ousado Descolado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Design sem nome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sim.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Design sem nome1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Design sem nome %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Design sem nome2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Design sem nome3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Design sem nome4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Nacional\Mpb\Secos &amp; Molhados\Amor.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Nacional\Mpb\Secos &amp; Molhados\Assim Assado.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Nacional\Mpb\Secos &amp; Molhados\Fala.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Nacional\Mpb\Secos &amp; Molhados\Flores Astrais.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Nacional\Mpb\Secos &amp; Molhados\O Vira.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Nacional\Mpb\Secos &amp; Molhados\Rosa de Hiroshima.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Nacional\Mpb\Secos &amp; Molhados\Sangue Latino.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Nacional\Mpb\Tim Maia\CHOCOLATE.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Nacional\Mpb\Tim Maia\Ela Partiu.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Nacional\Mpb\Tim Maia\Eu Amo Você.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Nacional\Mpb\Tim Maia\O Descobridor Dos Sete Mares.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Nacional\Mpb\Tim Maia\Vale Tudo.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Nacional\Mpb\Titãns\Bichos escrotos.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Nacional\Mpb\Titãns\Deus e o Diabo.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Nacional\Mpb\Titãns\Flores.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Nacional\Mpb\Titãns\Homem Primata.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Nacional\Mpb\Titãns\Marvin.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Nacional\Mpb\Titãns\O Pulso.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Nacional\Mpb\Titãns\Os cegos do Castelo.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Rock\Fools Garden\Lemon Tree.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Rock\Fools Garden\Save The World Tomorrow.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Rock\Gorillaz\19-2000.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Rock\Gorillaz\Clint Eastwood.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Rock\Gorillaz\Feel Good Inc..mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Rock\Queen\Another One Bites the Dust.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Rock\Queen\Bohemian Rhapsody.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Rock\Queen\Don%27t Stop Me Now.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Rock\Queen\Killer Queen.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Rock\Queen\Love Of My Life.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Rock\Queen\Made In Heaven.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Rock\Queen\Sheer Heart Attack.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Rock\Queen\We Are The Champions.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Rock\Queen\We Will Rock You.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Rock\The Alan Parsons Projetc\Eye in the Sky.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Rock\The Beatles\Beautiful Boy.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Rock\The Beatles\Hello, Goodbye.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Rock\The Beatles\Yellow Submarine.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Rock\The Doors\People Are Strange.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Rock\The Doors\Touch Me.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Rock\Trio\Da Da Da.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Pop\Arctic Monkeys\505.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Pop\Cafuné\Tek It.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Pop\Jack Stauber\Baby Hotline.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Pop\Jack Stauber\Buttercup.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Pop\Jack Stauber\Choice.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Pop\Jack Stauber\Coffee.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Pop\Jack Stauber\Cupid.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Pop\Jack Stauber\Doctor.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Pop\Jack Stauber\Oh klahoma.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Pop\Jack Stauber\Peppermint %28feat. Lexy%29.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Pop\Jack Stauber\Tea Errors.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Pop\Jack Stauber\Two Time.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Pop\Steve Lacy\Bad Habit.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Musicas\Internacional\Pop\Steve Lacy\Dark Red.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\84 94 - Volume 1 - Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\A Day At The Races - Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\A Night At The Opera - Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Acústico MTV - Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Baby Hotline-Tea Errors - Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Cabeça de Dinossauro - Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Dançando a noite inteira - album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Dance Bem - Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Demon Days.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Dia dos Pais - Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Dinner Is Not Over - Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Dish Of The Day - Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Double Fantasy - Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Ela Partiu - Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Made In Heaven - Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Magical Mystery Tour - Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Micropop - Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\News of the World- Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Õ Blesq Blom - Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\O Descobridor dos 7 mares  - album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Pop Food - Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Rise And Fall - Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Running - Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Secos &amp; Molhados 1 - Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Secos &amp; Molhados 2 - Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Sheer Heart Attack - Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Shop A Pop Opera - Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Steve Lacy%27s Demo - Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Strange Days - Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\The Game - Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\The Soft Parade - Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Tim Maia 71 - Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Trio -  Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Two Time - Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Yellow Submarine - Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Voltar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Avancar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mais.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menos.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mais1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Eye-In-The-Sky-Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Favourite Worst Nightmare -Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Gemini Rights Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Jazz-Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Skiptracing-Album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Albuns\Please Don_t Go - Album.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
