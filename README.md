@@ -46,7 +46,7 @@ Projeto_Mp3/
 ├── Program.cs            // Ponto de entrada da aplicação
 ├── Form1.cs              // Tela de acesso inicial
 ├── Musicas/              // Pasta com arquivos .mp3 organizados por artista
-└── Resources/            // Capas de álbuns (imagens associadas às músicas)
+└── ALBUNS/            // Capas de álbuns (imagens associadas às músicas)
 
 
 🔧 Tecnologias Utilizadas
