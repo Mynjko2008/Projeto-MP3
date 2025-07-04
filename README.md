@@ -70,17 +70,3 @@ Projeto_Mp3/
 👨‍💻 Desenvolvedor
 Arthur Mynjko Lara Bento
 Estudante de Desenvolvimento de Sistemas | Apaixonado por Web e C#
-<div align="center">
-  <a href="https://www.linkedin.com/in/arthur-mynjko-985b482b3/" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
-  </a>
-  <a href="mailto:amynjko@gmail.com">
-    <img src="https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
-  </a>
-  <a href="https://github.com/Mynjko2008">
-    <img src="https://img.shields.io/github/followers/Mynjko2008?style=for-the-badge&logo=github">
-  </a>
-  <a href="https://www.instagram.com/arthur_mynjko/" target="_blank">
-    <img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
-  </a>
-</div>
